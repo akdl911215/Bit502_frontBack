@@ -1,0 +1,16 @@
+package com.example.demo.bbs.domain;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "boards")
+public class Board {
+	private long boardNo;
+	private String tilte;
+	private String content;
+	private String writer;
+	private Date regDate;
+}

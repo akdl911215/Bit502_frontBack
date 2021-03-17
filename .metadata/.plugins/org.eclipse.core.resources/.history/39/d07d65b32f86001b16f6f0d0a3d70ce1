@@ -1,0 +1,14 @@
+import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
+
+const Home = () => {
+
+    return(<>
+    <div style={{width:200, margin: "0 auto"}}></div>
+    <h1>홈페이지</h1>
+	<Link to={"Counter"}>카운터</Link><br/>
+    <Link to={"Login"}>로그인</Link><br/>
+    <Link to={"SignUp"}>SignUp</Link><br/>
+    </>)
+}
+export default Home
