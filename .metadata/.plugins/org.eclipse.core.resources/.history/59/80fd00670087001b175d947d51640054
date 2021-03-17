@@ -1,0 +1,28 @@
+package com.example.demo.uss.domain;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Entity
+@Table(name = "admins")
+public class Admin {
+	
+	@Id
+	@GeneratedValue
+	
+	@Column(name = "admin_no")
+	private long adminNo;
+	@Column(name = "title")
+	private String title;
+	@Column(name = "writer")
+	private String writer;
+	@Column(name = "reg_data")
+	private Data regData;
+	@Column(name = "click_view")
+	private long clickView;
+}

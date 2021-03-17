@@ -1,0 +1,51 @@
+package com.example.demo.uss.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.cmm.service.AbstractService;
+import com.example.demo.uss.domain.Admin;
+import com.example.demo.uss.domain.User;
+import com.example.demo.uss.repository.AdminRepository;
+
+public class AdminServiceImpl extends AbstractService<Admin> {
+	@Autowired AdminRepository repo;
+
+	@Override
+	public Optional<Admin> findOne(Admin t) {
+		return repo.findOne(null);
+	}
+
+	@Override
+	public long count() {
+		return repo.count();
+	}
+
+	@Override
+	public boolean existsById(Long id) {
+		return repo.existsById(id);
+	}
+
+	@Override
+	public <T> T save(T entity) {
+		return repo.save(null);
+	}
+
+	@Override
+	public List<Admin> findAllById(Iterable<Long> ids) {
+		return repo.findAllById(ids);
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		
+	}
+
+	@Override
+	public Admin getOne(Long id) {
+		return repo.getOne(id);
+	}
+
+}
