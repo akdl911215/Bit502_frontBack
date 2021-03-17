@@ -15,7 +15,7 @@ import com.example.demo.uss.domain.User;
 
 @Component
 public class Proxy {
-	//public BiFunction<String,String, Integer> mySkip = (t, u) -> (integer.apply(t) - 1) * integer.apply(u);
+	public BiFunction<String,String, Integer> mySkip = (t, u) -> (integer.apply(t) - 1) * integer.apply(u);
 	public Function<String, Object> intValue = Integer :: valueOf;
 	public BiPredicate<String, String> equals = String :: equals;
 	public BiFunction<Integer, Integer, Integer> random =(t,u)->(int)(Math.random()*(u-t))+t;
@@ -47,13 +47,7 @@ public class Proxy {
 
 	public BiFunction<Double, Double, Double> minDouble = Math::min;
 	public BiFunction<Float, Float, Float> minFloat = Math::min;
-	public BiFunction<Integer, Integer, Integer> minInteger = Math::min;
+	public BiFunction<Integer, Integer, Integer> minIntefer = Math::min;
 	public BiFunction<Long, Long, Long> minLong = Math::min;
 
-	public Supplier<Double> supplierRandom = Math::random;
-	
-	public Function<Double, Double> rint = Math::rint;
-	
-	public Function<Double, Long> roundDouble = Math::round;
-	//public Function<Long, Intger> roundFloat = Math::round;
 }

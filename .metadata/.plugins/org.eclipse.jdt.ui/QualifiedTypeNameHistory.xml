@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="com.example.demo.uss.repository.UserRepositoryImpl"/>
     <fullyQualifiedTypeName name="com.example.demo.uss.repository.UserRepository"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="com.example.demo.uss.domain.User"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.Example"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -36,4 +35,9 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.function.BiPredicate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.example.demo.uss.domain.User"/>
 </qualifiedTypeNameHistroy>
