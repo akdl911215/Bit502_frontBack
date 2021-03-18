@@ -6,9 +6,11 @@ spring:
     password: 456123
 
   jpa:
-      database: mysql
-      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-      generate-ddl: true
-      show-sql: true
-      hibernate:
-        ddl-auto: update
+     database: mysql
+     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+     generate-ddl: true
+     show-sql: true
+     hibernate:
+       ddl-auto: update
+  jwt:
+    secret: jwtSecret

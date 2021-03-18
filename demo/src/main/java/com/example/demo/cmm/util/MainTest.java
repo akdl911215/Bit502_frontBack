@@ -1,7 +1,9 @@
 package com.example.demo.cmm.util;
 
-public class MainTest  {
+public class MainTest {
 	public static void main(String[] args) {
-		//Proxy.print.accept("헬로 람다");
+		Proxy p = new Proxy();
+		p.print.accept("헬로 람다");
+		// System.out.print("헬로 람다");
 	}
 }

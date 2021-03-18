@@ -8,8 +8,4 @@ import com.example.demo.uss.domain.UserDto;
 @Controller
 public class UserController {
 	@Autowired UserDto user;
-	
-	public void test( ) {
-		user.getPasswd();
-	}
 }

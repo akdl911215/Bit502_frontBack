@@ -1,22 +1,16 @@
 package com.example.demo.uss.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+import javax.persistence.*;
+
+
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
-@Table(name = "users")
-public class User {
+
+@Table(name="users")
+public class User{
 
 	@Id
 	@Column(name = "user_no")
@@ -28,9 +22,9 @@ public class User {
 
 	@Column(name = "password")
 	private String password;
-
-	@Column(name = "enabled")
-	private boolean enabled;
+	
+	@Column(name = "authority")
+	private String authority;
 	
 	@Column(name = "name")
 	private String name;
@@ -43,5 +37,7 @@ public class User {
 	
 	@Column(name = "gender")
 	private String gender;
+	
+	
 	
 }
