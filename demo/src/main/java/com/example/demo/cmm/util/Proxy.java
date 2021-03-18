@@ -24,7 +24,7 @@ public class Proxy {
 	public Supplier<LocalTime> time = () -> LocalTime.now();
 	public BiFunction<String,String, File> mkDir = File::new;
 	public BiFunction<File,String, File> mkFile = File::new;
-	public Supplier<User> newUser = User::new;
+	//public Supplier<User> newUser = User::new;
 	public Consumer<String> print = System.out::print;
 	public Function<Object, String> string = String::valueOf;
 	public Function<String, Integer> integer = Integer::parseInt;

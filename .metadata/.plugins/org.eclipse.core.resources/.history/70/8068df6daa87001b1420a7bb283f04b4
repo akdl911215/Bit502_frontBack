@@ -1,0 +1,5 @@
+package com.example.demo.sec.filter;
+
+public class CustomAuthenticationEntryPoint {
+
+}
