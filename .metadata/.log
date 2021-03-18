@@ -10082,3 +10082,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.lsp4e 1 0 2021-03-18 18:05:32.831
 !MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from C:\Users\LEE Jung Hyun\project\sts-4.9.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.13.202012011111\node_modules\typescript\lib\tsserverlibrary.js
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-18 20:40:12.283
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eNcJzDap
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-18 20:40:12.288
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.eNcJzDap
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-18 20:40:12.292
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-18 20:40:12.297
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eNcJzDap => OK
