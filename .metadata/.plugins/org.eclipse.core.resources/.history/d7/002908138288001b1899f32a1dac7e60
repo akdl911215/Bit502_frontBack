@@ -1,0 +1,7 @@
+<<?xml version="1.0"?>>
+<<!-- http://www.adobe.com/crossdomain.xml -->>
+<<cross-domain-policy>>
+  <<allow-access-from domain="www.helpexamples.com" />>
+  <<allow-access-from domain="*.adobe.com" />>
+  <<allow-access-from domain="105.216.0.40" />>
+<</cross-domain-policy>>
